@@ -1,0 +1,15 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "Helper scripts for data collection at The Michigan Daily",
+  "author": {
+    "name": "Marie Yu"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^10.0.2"
+  },
+  "dependencies": {
+    "piping-bag": "github:michigandaily/piping-bag"
+  }
+}

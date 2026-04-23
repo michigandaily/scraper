@@ -1,0 +1,10 @@
+# piping-bag
+tmp/
+dist/
+pnpm-workspace.yaml
+
+# pnpm
+node_modules/
+
+# dev
+.DS_Store
