@@ -23,4 +23,7 @@ export default defineConfig({
     }),
     rate: "rate(5 minutes)",
   },
+  schema: {
+    bucket: "stash.michigandaily.com",
+  },
 });

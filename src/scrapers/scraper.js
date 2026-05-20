@@ -1,8 +1,11 @@
 import { pipe } from "piping-bag/lib/schema";
 
-export const main = () => {
-    console.log("Hello World")
-    pipe()
+export const main = async () => {
+  const payload = { data: "Hello world!" };
+  await pipe(JSON.stringify(payload), ".json");
+};
+
+if (process.env.STAGE !== "production") {
+  main();
 }
 
-main()
