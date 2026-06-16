@@ -1,12 +1,12 @@
 import { defineConfig, defineSchedulerDate } from "piping-bag";
 
 export default defineConfig({
+  name: "scraper",
+  profile: "pipe",
   deployment: {
-    name: "scraper",
     handler: "scraper.main",
     // path: "./tmp/scraper.zip",
     zip_dir: "./tmp",
-    profile: "pipe",
   },
   schedule: {
     start: defineSchedulerDate({
