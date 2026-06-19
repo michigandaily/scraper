@@ -6,7 +6,7 @@ export default defineConfig({
   deployment: {
     handler: "scraper.main",
     // path: "./tmp/scraper.zip",
-    zip_dir: "./tmp",
+    zip_dir: "./dist",
   },
   schedule: {
     start: defineSchedulerDate({
