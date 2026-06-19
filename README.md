@@ -6,11 +6,11 @@ Scraper is a template starter for scheduled data collection, such as via a cron 
 It is primarily an extensible example to use [michigandaily/piping-bag](https://github.com/michigandaily/piping-bag) and a variety of scraping libraries and helpers.
 
 It has several useful features:
-[ x ] Easy deploy of the scraper to AWS Lambda scheduled with AWS EventBridge
-[ x ] Template listener for real-time updates on data collection to AWS S3
-[ ] Automated Docker build, deployment and local testing
-[ ] JSON validation for scraper output
-[ ] Puppeteer and Chromium as default dependencies
+- [x] Easy deploy of the scraper to AWS Lambda scheduled with AWS EventBridge
+- [x] Template listener for real-time updates on data collection to AWS S3
+- [ ] Automated Docker build, deployment and local testing
+- [ ] JSON validation for scraper output
+- [ ] Puppeteer and Chromium as default dependencies
 
 ## Using this template
 
