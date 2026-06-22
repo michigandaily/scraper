@@ -1,7 +1,7 @@
 {
   "name": "scraper",
   "version": "0.0.1",
-  "description": "Helper scripts for data collection at The Michigan Daily",
+  "description": "Template scripts for data collection at The Michigan Daily",
   "author": {
     "name": "Marie Yu"
   },

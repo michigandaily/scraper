@@ -38,6 +38,17 @@ pnpm pipe list
 pnpm pipe delete
 ```
 
+A watcher template is provided under `src/viewer`, mainly for viewing the progress of the scraper in realtime on your terminal. It uses `piping-bag`'s `PipeClient`:
+
+```javascript
+const client = await PipeClient.Init();
+client.listen("update", 5000, (data) => {
+  console.log(data);
+});
+```
+
+To see the data you've collected so far, run `node src/viewer/viewer.js`. You can modify this file to fit your needs, although if you're creating a live graphic/dashboard it is recommended to use a repo more suited to building and deploying website graphics, such as [cookie](https://github.com/michigandaily/cookie) as a starting template.
+
 ## Deploying to AWS Lambda
 
 Refer to the [deployment section in the `piping-bag` README](https://github.com/michigandaily/piping-bag#deployment) for instructions and examples on setting up a configuration file for deploying to AWS Lambda.
